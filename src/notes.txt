@@ -1,0 +1,28 @@
+Promises represents the eventual completion or failure of an asynchronous operation and its resulting value.
+
+XMLHttpRequest = Request against an API
+Open
+onLoad
+send
+
+Axios is an abstraction on top of XMLHttpRequest
+
+Promise can have three states - Pending, Fulfilled or Rejected
+
+Need to consider Pending, Fulfilled and Rejected when making a promise.
+
+
+Async/await is syntatic sugar for promises (meant to make working with promises easier)
+
+Await is used insted of async and used for blocking current function
+
+Return is wrapped in a promise
+
+Async function
+async function getNames(){
+    return[];
+}
+
+const getNames = async() => {
+    return [];
+}
